@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# FFmpeg output
+*.mp4
+*.jpg
+*.png
+*.webm
+
+# GCP credentials
+gcp-key.json
+*.json
+
+# Logs and dumps
+*.log
+*.out
+*.pid
+
+# macOS & system junk
+.DS_Store
+Thumbs.db
+

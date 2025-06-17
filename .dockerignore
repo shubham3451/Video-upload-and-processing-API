@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local virtualenv
+venv/
+
+# Git
+.git/
+.gitignore
+
+# Local configs
+.env
+.env.*
+*.log
+
+# GCP credentials (handled via Docker volume or mounted securely)
+gcp-key.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local media & output
+*.mp4
+*.webm
+*.jpg
+*.png
+*.avi
+
